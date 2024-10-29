@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgSelect"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/txtSTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/dunggeunmo"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#1d7b91"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtSAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/dunggeunmo"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtSPrice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/dunggeunmo"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtSMemo"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="@font/dunggeunmo"
+        android:hint="Memo"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnIns"
+        android:layout_width="133dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#daa64d"
+        android:fontFamily="@font/dunggeunmo"
+        android:text="즐겨찾기"
+        android:textColor="#B22F26"
+        android:textSize="20sp" />
+
+</LinearLayout>
